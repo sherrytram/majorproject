@@ -1,0 +1,339 @@
+html, body {
+    background-color: #F8F8EF;
+    padding: 0;
+    margin: 0;
+}
+
+#topbanner {
+    background-color: #B20C06;
+    opacity: 90%;
+    height: 62px;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1.5px solid #B20C06;
+    border-collapse:collapse;
+}
+
+#navtable {
+    margin-top: 50px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 190px;
+}
+
+#title {
+    width: 25%;
+}
+
+#issa {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 45px;
+    font-style: italic;
+    letter-spacing: 10px;
+    margin-bottom: 0%;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bolder;
+}
+
+#sfbay {
+    height: 30%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
+    color:#B20C06;
+    letter-spacing: 5px;
+    margin-bottom: 0%;
+    font-weight: bold;
+    text-align: center;
+  
+}
+
+#issatext {
+    height: 30%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 10px;
+    margin-bottom: 0%;
+    font-weight: 500;
+    text-align: center;
+}
+
+#navlinks {
+display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#home, #board, #join{ 
+   padding-left: 100px; 
+   padding-right: 100px;
+   text-decoration: none;
+   font-family: 'Nunito Sans', sans-serif;
+   letter-spacing: 10px;
+    font-weight: bold;
+}
+
+#home {
+    color:#B20C06;
+}
+
+#join, #board {
+    color:black;
+}
+#twt {
+    width: 10%;
+}
+
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#abouttable {
+    margin-top: 50px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}
+
+#aboutimg {
+    width: 50%;
+}
+
+#abouttext {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+   letter-spacing: 4px;
+   font-weight: 500;
+   font-size: 19px;
+}
+
+#infotable {
+    margin-top: 50px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+
+#arrow2 {
+    border: solid #fff;
+    border-width: 0 1.5px 1.5px 0;
+    padding: 3px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    float: right;
+    margin-right: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: right;
+  }
+
+  #arrow3 {
+    border: solid #B20C06;
+    border-width: 0 1.5px 1.5px 0;
+    padding: 3px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    float: right;
+    margin-right: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  #pagearrow {
+    border: solid #B20C06;
+    border-width: 0 1.5px 1.5px 0;
+    padding: 3px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    float: right;
+    margin-right: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+  }
+
+
+#annoucements {
+    color: #B20C06;
+    font-family: 'Nunito Sans', sans-serif;
+   letter-spacing: 4px;
+   font-weight: 500;
+   font-size: 16px;
+   padding-left: 15px;
+   
+   
+}
+#annoucementbox {
+    width: 33%;
+    
+}
+
+#currentbox {
+    background-color: #B20C06;
+    color: #fff;
+    opacity: 90%;
+    width: 33%;
+}
+
+
+#current{
+   color:#fff; 
+   font-family: 'Nunito Sans', sans-serif;
+   letter-spacing: 4px;
+   font-weight: 500;
+   font-size: 16px;
+   padding-left: 15px;
+}
+
+#pastbox {
+    width: 33%;
+}
+
+#past {
+    color:#B20C06;
+    font-family: 'Nunito Sans', sans-serif;
+   letter-spacing: 4px;
+   font-weight: 500;
+   font-size: 16px;
+   padding-left: 15px;
+}
+
+#event1 {
+    width: 85%;
+    margin-left: 7.5%;
+    padding-top: 40px;
+    display: flex;
+}
+
+#dot1 {
+    height: 75px;
+    width: 75px;
+    background-color: #B20C06;
+    opacity: 90%;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#dot2 {
+    height: 75px;
+    width: 75px;
+    background-color: #B20C06;
+    opacity: 70%;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 8px;
+}
+
+#event1text {
+    font-family: 'Nunito Sans', sans-serif;
+   letter-spacing: 4px;
+   font-weight: 500;
+   font-size: 16px;
+   margin-left: 30px;
+   margin-bottom: 50px;
+}
+
+#regbutton1 {
+    text-align: center;
+    color: #fff;
+    border: 1.5px solid #B20C06;
+    background-color: #B20C06;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+   letter-spacing: 4px;
+   font-weight: 500;
+   font-size: 16px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+  
+}
+
+#speakerbox {
+    margin-top: 50px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 380px;
+    border: 1.5px solid #B20C06;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#speakertitle {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 10px;
+    padding-top: 15px;
+    color:#B20C06;
+    opacity: 90%;
+}
+
+#speakertext {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+   letter-spacing: 4px;
+   font-weight: 500;
+   font-size: 16px;
+   padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+#speakerbutton {
+    text-align: center;
+    color: #fff;
+    border: 1.5px solid #B20C06;
+    background-color: #B20C06;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+   letter-spacing: 4px;
+   font-weight: 500;
+   font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#speakerbutton:hover {
+    background-color: #F8F8EF;
+    color:#B20C06;
+}
+
+footer {
+    background-color: #B20C06;
+    height: 100%;
+    text-align: center;
+    color:#fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+   letter-spacing: 4px;
+   font-weight: 500;
+   font-size: 16px;
+   margin-top: 30px;
+}
